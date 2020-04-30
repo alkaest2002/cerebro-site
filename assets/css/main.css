@@ -15,7 +15,10 @@ a:hover {
 }
 
 section {
-  padding: 20px 60px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 #rationale, #roadmap {
