@@ -37,3 +37,7 @@ section {
 .uk-navbar-container:not(.uk-navbar-transparent) {
   background: rgba(255,255,255,.98);
 }
+
+.uk-card-secondary {
+  background: #464c68;
+}
