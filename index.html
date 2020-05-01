@@ -25,24 +25,24 @@
 
 </head>
 
-<body>
-  <div>
+<body id="cerebro">
+  <div uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky">
     <nav class="uk-navbar-container" uk-navbar>
       <div class="uk-navbar-center">
         <div class="uk-navbar-center-left">
           <div>
             <ul class="uk-navbar-nav">
-              <li class="uk-visible@m"><a href="/#rationale">Rationale</a></li>
-              <li><a href="/#tests">tests</a>
+              <li class="uk-visible@m"><a href="#rationale">Rationale</a></li>
+              <li><a href="#tests">tests</a>
             </ul>
           </div>
         </div>
-        <a class="uk-navbar-item uk-logo uk-text-bolder" href="#">CEREBRO</a>
+        <a class="uk-navbar-item uk-logo uk-text-bolder" href="#cerebro">CEREBRO</a>
         <div class="uk-navbar-center-right">
           <div>
             <ul class="uk-navbar-nav">
-              <li class="uk-visible@m"><a href="/#roadmap">Roadmap</a></li>
-              <li><a href="#/contacts">Contacts</a></li>
+              <li class="uk-visible@m"><a href="#roadmap">Roadmap</a></li>
+              <li><a href="#contacts">Contacts</a></li>
             </ul>
           </div>
         </div>
@@ -275,6 +275,7 @@
 
   <!-- UIkit JS -->
   <script src="https://cdn.jsdelivr.net/npm/uikit@3.4.2/dist/js/uikit.min.js"></script>
+  <script src="assets/js/site-min.js"> </script>
 </body>
 
 </html>
