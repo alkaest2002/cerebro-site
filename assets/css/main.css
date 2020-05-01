@@ -36,9 +36,15 @@ section {
   border-bottom: 1px solid #e9ecef
 }
 
+#roadmap {
+  border-bottom: none;
+}
+
 #partnership {
   font-size: 1.3em;
   background-color: #fccb5a;
+  border-top: 1px solid #ffb200;
+  border-bottom: 1px solid #ffb200;
 }
 
 .uk-logo {
