@@ -23,12 +23,22 @@ section {
   box-shadow: 3px 3px 5px 1px #aaaa;
 }
 
+.hashtag {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 1.3em;
+}
+
 #rationale, #roadmap {
   font-size: 1.3em;
   background-color: #f8f9fc;
   color: #8492a6;
   border-top: 1px solid #e9ecef;
   border-bottom: 1px solid #e9ecef
+}
+
+#partnership {
+  font-size: 1.3em;
+  background-color: #fccb5a;
 }
 
 .uk-logo {
