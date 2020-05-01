@@ -14,6 +14,10 @@ section {
   padding: 60px 15px;
 }
 
+#navbar {
+  opacity: .98;
+}
+
 #journal {
   width: 230px;
   box-shadow: 3px 3px 5px 1px #aaaa;
