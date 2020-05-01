@@ -2,14 +2,13 @@
 <html lang="en">
 
 <head>
-  
-  <!-- Global site tag (gtag.js) - Google Analytics -->
+
+  <!-- Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-23103868-13"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
+    function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
-
     gtag('config', 'UA-23103868-13');
   </script>
 
@@ -17,11 +16,11 @@
   <meta http-equiv="x-ua-compatible" content="ie=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <title>App-Cerebro</title>
+  <title>App Cerebro</title>
 
   <!-- UIkit CSS -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.4.2/dist/css/uikit.min.css" />
-  <link rel="stylesheet" href="/assets/css/main.css" />
+  <link rel="stylesheet" href="/assets/css/main-min.css" />
 
 </head>
 
@@ -41,7 +40,7 @@
         <div class="uk-navbar-center-right">
           <div>
             <ul class="uk-navbar-nav">
-              <li class="uk-visible@m" ><a href="/#roadmap">Roadmap</a></li>
+              <li class="uk-visible@m"><a href="/#roadmap">Roadmap</a></li>
               <li><a href="#/contacts">Contacts</a></li>
             </ul>
           </div>
@@ -63,13 +62,17 @@
       <h2 class="uk-text-bolder">Rationale</h2>
       <div class="uk-margin" uk-grid>
         <div class="uk-width-1-4@m">
-          <a href="https://neuro.psychiatryonline.org/journal/jnp" target="_blank"><img class="uk-image" style="height:300px" src="/assets/images/jnp.webp" alt="Journal of Neuropsychiatry and Clinical Neurosciences"></a>
+          <a href="https://neuro.psychiatryonline.org/journal/jnp" target="_blank"><img id="journal" class="uk-image" src="/assets/images/jnp.webp" alt="Journal of Neuropsychiatry and Clinical Neurosciences"></a>
         </div>
         <div class="uk-width-expand">
-          <p>"Psychiatric disorders are defined by abnormalities of thought, affect, and impulse control. Arguably, the greatest functional impact of these illnesses on the lives of the mentally ill and society are not related to the symptoms of delusions, hallucinations, or depressed mood, but simply to making poor decisions."</p>
+          <p>"Psychiatric disorders are defined by abnormalities of thought, affect, and impulse control. Arguably, the
+            greatest functional impact of these illnesses on the lives of the mentally ill and society are not related
+            to the symptoms of delusions, hallucinations, or depressed mood, but simply to making poor decisions."</p>
           <p class="uk-text-small">
-              Cáceda, R., Nemeroff, C. B., & Harvey, P. D. (2014). Toward an understanding of decision making in severe mental illness. J of Neuropsychiatry and Clinical Neurosciences, 26(3), 196-213.<br>
-            <a href="https://doi.org/10.1176/appi.neuropsych.12110268" target="_blank">https://doi.org/10.1176/appi.neuropsych.12110268</a>
+            Cáceda, R., Nemeroff, C. B., & Harvey, P. D. (2014). Toward an understanding of decision making in severe
+            mental illness. J of Neuropsychiatry and Clinical Neurosciences, 26(3), 196-213.<br>
+            <a href="https://doi.org/10.1176/appi.neuropsych.12110268"
+              target="_blank">https://doi.org/10.1176/appi.neuropsych.12110268</a>
           </p>
         </div>
       </div>
@@ -94,13 +97,14 @@
             </ul>
           </div>
         </div>
-        <ul class="js-filter uk-child-width-1-1 uk-child-width-1-2@m uk-child-width-1-3@l uk-text-center" uk-grid uk-lightbox>
+        <ul class="js-filter uk-child-width-1-1 uk-child-width-1-2@m uk-child-width-1-3@l uk-text-center" uk-grid
+          uk-lightbox>
           <li class="tag-solve">
             <div>
-              <a class="uk-inline" href="/assets/images/rm.png" data-caption="Raven Matrices">
+              <a class="uk-inline" href="/assets/images/rm-min.png" data-caption="Raven Matrices">
                 <div class="uk-card uk-card-secondary">
                   <div class="uk-card-media-top">
-                    <img src="/assets/images/rm.png" alt="Raven Matrices">
+                    <img src="/assets/images/rm-min.png" alt="Raven Matrices">
                   </div>
                   <div class="uk-card-body uk-padding-small">
                     <h3 class="uk-card-title">Raven's Matrices</h3>
@@ -111,10 +115,10 @@
           </li>
           <li class="tag-solve">
             <div>
-              <a class="uk-inline" href="/assets/images/kc.png" data-caption="Kohs Cubes">
+              <a class="uk-inline" href="/assets/images/kc-min.png" data-caption="Kohs Cubes">
                 <div class="uk-card uk-card-secondary">
                   <div class="uk-card-media-top">
-                    <img src="/assets/images/kc.png" alt="Kohs Cubes">
+                    <img src="/assets/images/kc-min.png" alt="Kohs Cubes">
                   </div>
                   <div class="uk-card-body uk-padding-small">
                     <h3 class="uk-card-title">Kohs Cubes</h3>
@@ -125,10 +129,10 @@
           </li>
           <li class="tag-decide">
             <div>
-              <a class="uk-inline" href="/assets/images/tol.png" data-caption="Tower of London">
+              <a class="uk-inline" href="/assets/images/tol-min.png" data-caption="Tower of London">
                 <div class="uk-card uk-card-secondary">
                   <div class="uk-card-media-top">
-                    <img src="/assets/images/tol.png" alt="Tower of London">
+                    <img src="/assets/images/tol-min.png" alt="Tower of London">
                   </div>
                   <div class="uk-card-body uk-padding-small">
                     <h3 class="uk-card-title">Tower of London</h3>
@@ -139,10 +143,10 @@
           </li>
           <li class="tag-decide">
             <div>
-              <a class="uk-inline" href="/assets/images/wcst.png" data-caption="Wisconsin Card Sorting">
+              <a class="uk-inline" href="/assets/images/wcst-min.png" data-caption="Wisconsin Card Sorting">
                 <div class="uk-card uk-card-secondary">
                   <div class="uk-card-media-top">
-                    <img src="/assets/images/wcst.png" alt="Wisconsin Card Sorting">
+                    <img src="/assets/images/wcst-min.png" alt="Wisconsin Card Sorting">
                   </div>
                   <div class="uk-card-body uk-padding-small">
                     <h3 class="uk-card-title">Wisconsin Card Sort</h3>
@@ -153,10 +157,10 @@
           </li>
           <li class="tag-decide">
             <div>
-              <a class="uk-inline" href="/assets/images/igt.png" data-caption="Iowa Gambling Task">
+              <a class="uk-inline" href="/assets/images/igt-min.png" data-caption="Iowa Gambling Task">
                 <div class="uk-card uk-card-secondary">
                   <div class="uk-card-media-top">
-                    <img src="assets/images/igt.png" alt="Iowa Gambling Task">
+                    <img src="assets/images/igt-min.png" alt="Iowa Gambling Task">
                   </div>
                   <div class="uk-card-body uk-padding-small">
                     <h3 class="uk-card-title">Iowa Gambling Task</h3>
@@ -167,10 +171,10 @@
           </li>
           <li class="tag-recall">
             <div>
-              <a class="uk-inline" href="/assets/images/ds.png" data-caption="Digit Span">
+              <a class="uk-inline" href="/assets/images/ds-min.png" data-caption="Digit Span">
                 <div class="uk-card uk-card-secondary">
                   <div class="uk-card-media-top">
-                    <img src="/assets/images/ds.png" alt="Digit Span">
+                    <img src="/assets/images/ds-min.png" alt="Digit Span">
                   </div>
                   <div class="uk-card-body uk-padding-small">
                     <h3 class="uk-card-title">Digit Span</h3>
@@ -181,10 +185,10 @@
           </li>
           <li class="tag-recall">
             <div>
-              <a class="uk-inline" href="/assets/images/cbt.png" data-caption="Corsi-Like Blocks Tapping">
+              <a class="uk-inline" href="/assets/images/cbt-min.png" data-caption="Corsi-Like Blocks Tapping">
                 <div class="uk-card uk-card-secondary">
                   <div class="uk-card-media-top">
-                    <img src="/assets/images/cbt.png" alt="Corsi-Like Blocks Tapping">
+                    <img src="/assets/images/cbt-min.png" alt="Corsi-Like Blocks Tapping">
                   </div>
                   <div class="uk-card-body uk-padding-small">
                     <h3 class="uk-card-title">Corsi-Like Blocks</h3>
@@ -195,10 +199,10 @@
           </li>
           <li class="tag-monitor">
             <div>
-              <a class="uk-inline" href="/assets/images/cnt.png" data-caption="Concentration">
+              <a class="uk-inline" href="/assets/images/cnt-min.png" data-caption="Concentration">
                 <div class="uk-card uk-card-secondary">
                   <div class="uk-card-media-top">
-                    <img src="/assets/images/cnt.png" alt="Concentration">
+                    <img src="/assets/images/cnt-min.png" alt="Concentration">
                   </div>
                   <div class="uk-card-body uk-padding-small">
                     <h3 class="uk-card-title">Concentration</h3>
@@ -209,13 +213,13 @@
           </li>
           <li class="tag-monitor">
             <div>
-              <a class="uk-inline" href="/assets/images/rt.png" data-caption="Reaction Times">
+              <a class="uk-inline" href="/assets/images/rt-min.png" data-caption="Reaction Times">
                 <div class="uk-card uk-card-secondary">
                   <div class="uk-card-media-top">
-                    <img src="/assets/images/rt.png" alt="Reaction Times">
+                    <img src="/assets/images/rt-min.png" alt="Reaction Times">
                   </div>
                   <div class="uk-card-body uk-padding-small">
-                    <h3 class="uk-card-title">Reaction Times</h3>
+                    <h3 class="uk-card-title">Reaction Time</h3>
                   </div>
                 </div>
               </a>
@@ -231,11 +235,12 @@
       <ul>
         <li>2020-T1: Initial development</li>
         <li>2020-T2: Beta testing</li>
-        <li>2020-T3: Standardization (pilot study I)</li>
-        <li>2020-T4: Standardization (pilot study II)</li>
+        <li>2020-T3: Standardization <span class="uk-visible@m">(pilot study I)</span></li>
+        <li>2020-T4: Standardization <span class="uk-visible@m">(pilot study II)</span></li>
         <li>2021-T1: Deployment</li>
       </ul>
-      <p class="uk-display-inline-block uk-margin-medium-top"><a href="/assets/download/cerebro-previews.zip">Click here</a> to download a zipped file with preview videos.</p>
+      <p class="uk-display-inline-block uk-margin-medium-top"><a href="/assets/download/cerebro-previews.zip">Click
+          here</a> to download a zipped file with preview videos.</p>
     </div>
   </section>
   <section id="contacts">
