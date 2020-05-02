@@ -60,6 +60,11 @@ section {
   color: rgb(70, 76, 105);
 }
 
+.uk-subnav-pill>.uk-active>a {
+  background-color: #464c68 !important;
+  color: #fff;
+}
+
 .uk-navbar-container:not(.uk-navbar-transparent) {
   background: rgba(255,255,255,.98);
 }
