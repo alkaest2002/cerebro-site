@@ -18,6 +18,10 @@ section {
   opacity: .98;
 }
 
+#specs img {
+  width: 30%;
+}
+
 #journal {
   width: 230px;
   box-shadow: 3px 3px 5px 1px #aaaa;
@@ -34,17 +38,6 @@ section {
   color: #8492a6;
   border-top: 1px solid #e9ecef;
   border-bottom: 1px solid #e9ecef
-}
-
-#roadmap {
-  border-bottom: none;
-}
-
-#partnership {
-  font-size: 1.3em;
-  background-color: #fccb5a;
-  border-top: 1px solid #ffb200;
-  border-bottom: 1px solid #ffb200;
 }
 
 .uk-logo {
@@ -68,5 +61,7 @@ section {
 }
 
 .uk-card-title {
+  color: rgb(70, 76, 105) !important;
+  font-weight: bolder;
   font-size: 1.2em;
 }
